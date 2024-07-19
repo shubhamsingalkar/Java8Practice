@@ -15,7 +15,7 @@ public class Filterdemo1 {
 
 
 		/* OR  (Another way to make arraylist)*/
-		List<Integer> numberlist= Arrays.asList(15,20,25,30,5,6);
+		List<Integer> numberlist= Arrays.asList(15,20,25,30,5,6,8);
 		List<Integer> evennumberlist=new ArrayList<Integer>();
 		//filtering without filter()
 		for(int ii:numberlist) {
