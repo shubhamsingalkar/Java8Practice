@@ -11,11 +11,11 @@ public class Filterdemo2 {
 	
 		List<String> list = Arrays.asList("Shubham", "John","Vinay","Vrushabh");
 		
-		List<String> filtered_data = list.stream().filter(str->str.length()<=8 && str.length()>5).toList();
+		List<String> filtered_data = list.stream().filter(str->str.length()<=8 && str.length()>=5).toList();
 		System.out.println(filtered_data);
 		
 		     //OR
-		list.stream().filter(str-> str.length()<=8 && str.length()>5).toList().forEach(System.out::println);
+		list.stream().filter(str-> str.length()<=8 && str.length()>=5).toList().forEach(System.out::println);
 		
 
 	}
